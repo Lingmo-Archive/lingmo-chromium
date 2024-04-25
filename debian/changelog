@@ -1,0 +1,16 @@
+chromium (124.0.6) UNRELEASED; urgency=high
+
+  * d/patches/ppc64le:
+     - third_party/0001-Add-PPC64-support-for-boringssl.patch: update for
+       upstream boringssl changes and reenable
+     - third_party/0003-third_party-ffmpeg-Add-ppc64-generated-config.patch:
+       regenerate from new ffmpeg source tree
+     - third_party/skia-vsx-instructions.patch: update for upstream changes
+
+  [ Andres Salomon ]
+  * d/patches:
+    - fixes/arm64-ftbfs.patch: add arm64-specific ftbfs fix for libdav1d.
+    - upstream/ozone1.patch, upstream/ozone2.patch: backport fixes for
+      broken wayland support (closes: #1069586).
+
+ -- Lingmo OS <team@lingmo.org>  Fri, 26 Apr 2024 00:12:22 +0800
