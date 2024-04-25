@@ -46,8 +46,8 @@ jobs:
       run: |
         ./debian/rules get-orig-source
         ls
-        tar Jxvf chromium_124.0.6.orig.tar.xz
-        cp -ra chromium-git/debian chromium-124.0.6
+        tar Jxvf chromium_124.0.6367.60.orig.tar.xz
+        cp -ra chromium-git/debian chromium-124.0.6367.60
     - name: Build Package
       run: |
         dpkg-buildpackage -b -uc -us -j$(nproc)

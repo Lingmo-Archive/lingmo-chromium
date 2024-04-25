@@ -1,4 +1,4 @@
-chromium (124.0.6) UNRELEASED; urgency=high
+chromium (124.0.6367.60) UNRELEASED; urgency=high
 
   * d/patches/ppc64le:
      - third_party/0001-Add-PPC64-support-for-boringssl.patch: update for
