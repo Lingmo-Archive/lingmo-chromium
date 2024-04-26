@@ -191,7 +191,7 @@ override_dh_auto_clean:
 
 ###################### upstream source downloading ############################
 
-url=https://gsdview.appspot.com/chromium-browser-official
+url=https://ftp.debian.org/debian/pool/main/c/chromium
 version=$(shell dpkg-parsechangelog -S Version | sed s/-.*//)
 extract=chromium-$(version)
 tarfile=$(extract).tar
