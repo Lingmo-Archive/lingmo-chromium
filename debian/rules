@@ -193,7 +193,7 @@ override_dh_auto_clean:
 
 url=https://ftp.debian.org/debian/pool/main/c/chromium
 version=$(shell dpkg-parsechangelog -S Version | sed s/-.*//)
-extract=chromium-$(version)
+extract=chromium_$(version)
 tarfile=$(extract).orig.tar
 tarball=$(tarfile).xz
 debvers=../chromium_$(version)
